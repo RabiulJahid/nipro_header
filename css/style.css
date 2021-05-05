@@ -1,0 +1,81 @@
+/*COMMON CSS*/
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #8E8E8E;
+}
+
+  /*HEADER START*/
+  header{
+    
+  }
+  nav.C_nav{
+    padding-top: 0;
+  }
+  a.Left_all{
+    padding-top: 0;
+  }
+
+/*LOGO*/
+div.logo{
+    font-family: 'Lato', sans-serif;
+}
+div.logo .one{
+  
+   }
+   img.I_mg{
+    margin-top:-6px;
+    margin-bottom: -6px;
+   }
+div.logo .logo_T{ 
+   font-size: 30px;
+   font-weight: 500;
+   color: #333333;
+}
+/*MENU*/
+.Menu{
+  margin-top: 30px;
+}
+.Menu ul li a{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #8E8E8E !important;
+    transition: .4s;
+    padding: 15px !important;
+} 
+.Menu ul li a:hover{
+  color: #333333 !important;
+  border-bottom: 1px solid indigo;
+}
+/*SEARCH*/
+a.btn-search{
+  color: #8E8E8E;
+}
+a.btn-search:hover{
+  color: #333333;
+}
+a.btn-search:focus{
+  outline:0;
+  box-shadow: none;
+}
+/*SUB SEARCH*/
+ul.D_search{
+    min-width: 350PX;
+    top: 65PX;
+    padding: 10px 10px;
+    border: none;
+}
+ul.D_search[data-bs-popper] {
+    left: -300px;
+    }
+div.search{
+
+    }
+button.icon{
+    padding: 5px 10px;
+    border-radius: 10px;
+    }
+
+ /*HEADER END*/
+
